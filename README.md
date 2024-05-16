@@ -1,3 +1,3 @@
 # RPG Menu em Python
 
-### testando algumas funcionalidades e conhecimentos para desenvolver um menu basico de RPG
+### Testando algumas funcionalidades e conhecimentos para desenvolver um menu de RPG
