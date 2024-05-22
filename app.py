@@ -38,21 +38,22 @@ while True:
 print("\n Bem Vindo ao SophieValle")
 print("Escolha uma das opções para continuar: \n")
 
-print("Menu: \n")
-print("1: Jogar \n 2: Continuar \n 3: Sair \n ")
-menuEscolha = int ( input(": "))
+def menu():
+    print("Menu \n")
+    print("1: Jogar")
+    print("2: Continuar")
+    print("3: Configurações")
+    print("4: Sair")
 
-if menuEscolha == 1:
-    print("Carregando...")
-elif menuEscolha == 2:
-    print("Aguarde, recuperando log...")
-elif menuEscolha == 3:
-    print("Saindo...")
-else:
-    print("Ação invalida!")
+    while True:
+        escolha = int ( input(": ") )
 
-
-
-
-
-
+        if escolha == 1:
+            print("Carregando...")
+        elif escolha == 2:
+            print("Aguarde...")
+        elif escolha == 3:
+            print("Carregando...")
+        else:
+            print("Saindo...")
+menu()
